@@ -3,25 +3,27 @@
 // [3 7 22 2 78] -> 76
 
 int number = 8; // задаем длинну массива
-double[] array = new double[number];
+int[] array = new int[number];
 
 FillArrayRandom(number);
 PrintArray(array);
-// Console.WriteLine($"Сумма чисел на нечетных позициях = {OddIndexCalc(array)}");
+Console.WriteLine($"Максимальный элемент = {MaxArrayElement(array)}");
+Console.WriteLine($"Минимальный элемент = {MinArrayElement(array)}");
+Console.WriteLine($"Разница между максимальным и минимальным элементами = {MaxArrayElement(array) - MinArrayElement(array)}");
 
-double[] FillArrayRandom(int length) // Метод заполнения массива
+int[] FillArrayRandom(int length) // Метод заполнения массива
 {
     Random random = new Random();
 
     for (int i = 0; i < number; i++)
     {
-        double randomValue = random.Next(-100, 100);
+        int randomValue = random.Next(-100, 100);
         array[i] = randomValue;
     }
     return array;
 }
 
-void PrintArray(double[] array) // вывод массива
+void PrintArray(int[] array) // вывод массива
 {
     for (int i = 0; i < number; i++)
     {
@@ -43,4 +45,28 @@ int OddIndexCalc(int[] array) // подсчет суммы чисел на не�
     return summ;
 }
 
+int MaxArrayElement(int[] array) // поиск максимального числа в массиве
+{
+    int max = array[0];
+        for (int i = 0; i < number; i++)
+    {
+        if (max < array[i])
+        {
+            max = array[i];
+        }
+    }
+    return max;
+}
 
+int MinArrayElement(int[] array) // поиск минимального числа в массиве
+{
+    int min = array[0];
+        for (int i = 0; i < number; i++)
+    {
+        if (min > array[i])
+        {
+            min = array[i];
+        }
+    }
+    return min;
+}
