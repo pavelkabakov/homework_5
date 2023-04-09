@@ -1,0 +1,15 @@
+D:\Dev\Знакомство C#\homework_5\task_34\bin\Debug\net6.0\task_34.exe
+D:\Dev\Знакомство C#\homework_5\task_34\bin\Debug\net6.0\task_34.deps.json
+D:\Dev\Знакомство C#\homework_5\task_34\bin\Debug\net6.0\task_34.runtimeconfig.json
+D:\Dev\Знакомство C#\homework_5\task_34\bin\Debug\net6.0\task_34.dll
+D:\Dev\Знакомство C#\homework_5\task_34\bin\Debug\net6.0\task_34.pdb
+D:\Dev\Знакомство C#\homework_5\task_34\obj\Debug\net6.0\task_34.csproj.AssemblyReference.cache
+D:\Dev\Знакомство C#\homework_5\task_34\obj\Debug\net6.0\task_34.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\Знакомство C#\homework_5\task_34\obj\Debug\net6.0\task_34.AssemblyInfoInputs.cache
+D:\Dev\Знакомство C#\homework_5\task_34\obj\Debug\net6.0\task_34.AssemblyInfo.cs
+D:\Dev\Знакомство C#\homework_5\task_34\obj\Debug\net6.0\task_34.csproj.CoreCompileInputs.cache
+D:\Dev\Знакомство C#\homework_5\task_34\obj\Debug\net6.0\task_34.dll
+D:\Dev\Знакомство C#\homework_5\task_34\obj\Debug\net6.0\refint\task_34.dll
+D:\Dev\Знакомство C#\homework_5\task_34\obj\Debug\net6.0\task_34.pdb
+D:\Dev\Знакомство C#\homework_5\task_34\obj\Debug\net6.0\task_34.genruntimeconfig.cache
+D:\Dev\Знакомство C#\homework_5\task_34\obj\Debug\net6.0\ref\task_34.dll
